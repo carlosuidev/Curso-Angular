@@ -95,3 +95,9 @@ Nos permite enviar información del componente hijo al padre
 3. Se crea un evento en el hijo para lanzar el emiter al pade `sendData(){ this.onNewUser.emit(this.user) }`
 4. En el .html del componente padre iremos al elemento hijo para añadir el sistema del emiter `<app-add-user (onNewUser)="onNewUser($event)"></app-add-user>`
 5. Creamos una función en el componente padre para gestionar la información `onNewUser(user:User):void{ console.log(user) }`
+
+## Generar una build para producción
+
+1. Nos situamos en el proyecto
+2. Lanzamos el comando `ng build` o `npm run build`
+3. Nos creará una carpeta "base" con el código para subir al hosting
