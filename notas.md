@@ -1,4 +1,4 @@
-l# NOTAS DE ANGULAR CURSO
+# NOTAS DE ANGULAR CURSO
 
 ## Generar:
 
